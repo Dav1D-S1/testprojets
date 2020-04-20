@@ -1,0 +1,355 @@
+@font-face { 
+    
+    font-family:police1;
+    src:url(fonts/Lack-master/Lack-master/Font/Lack-Regular.otf);
+}
+
+@font-face { 
+    
+    font-family:police2;
+    src:url(fonts/Womby-Font/Womby-Regular.otf);
+}
+
+
+
+
+h7 {
+    font-family: police1;
+    font-size: 60px;
+}
+
+
+#menu {
+    font-family: police1;
+    font-size: 23px;
+}
+#bande {
+    width:  150%;
+    margin-left: -3%;
+    margin-top: -7%;
+    z-index: -10000;
+    filter : blur(4px);
+}
+
+#TITRE {
+    text-align: center;
+    background-color: black;
+    width: 60%;
+     margin-left: 38%;
+    margin-top: -30%;
+    z-index: 10;
+    position: relative;
+    color: white;
+    
+    
+}
+h1 {
+    font-family: police1;
+    font-size: 35px;
+    
+}
+
+h2 {
+    font-family: police2;
+    font-size: 100px;
+    line-height: 9pt;
+}
+h3 {
+    font-family: police1;
+      font-size: 10px;
+}
+h4 {
+    font-family: police1;
+    font-size: 24px;
+}
+
+#INTRO{
+    font-family: police1;
+    text-align: left;
+    width: 600px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.SOUSTITRE {
+    font-family: police2;
+    font-size:  55px;
+    margin-left: 68%;
+    width: inherit;
+    
+}
+.toutexte {
+    font-family: police1;
+    width: 640px;
+    margin-left: 28%;
+    
+}
+#p1 {
+    text-align: right;
+}
+
+.legende {
+    font-family: police1;
+    text-align: center;
+    background-color:blue;
+    width: 60%;
+    font-size: 16px;
+    width: 200px;
+    padding: 20px;
+   
+}
+
+#legende1 {
+     margin-left: 110%;
+    margin-top: -45%;
+}
+#reading {
+    margin-left: 12%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+#testpattern {
+    width:  150%;
+    margin-left: -3%;
+    margin-top: 7%;
+    z-index: -10000;
+}
+#legende2 {
+     margin-left: 20%;
+    margin-top: -7%;
+    position: relative;
+    width: 250px;
+}
+
+#citation {
+    font-family: police1;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+    background-color:black;
+    color: white;
+    position: relative;
+    width: 650px;
+    padding: 10px;
+    padding-right: 50px;
+  
+    
+}
+#harvard {
+    width:  150%;
+    margin-left: 40%;
+    margin-top: -16%;
+    z-index: -10000;
+}
+#fondu {
+    margin-top: -6%;
+    background-color: rgba(232, 232, 232, 0.5);
+    position: relative;
+    padding: 20px;
+    
+}
+h5 {
+    margin-top: -85%;
+}
+
+
+#legende3 {
+     margin-left: 90%;
+    margin-top: -20%;
+}
+
+#img_chappe{
+    margin-left: 20%;
+}
+#baudot{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#standard{
+    margin-left: 70%;
+    margin-top: -51%;
+}
+#legende4 {
+    margin-left: 20%;
+    margin-top: -10%;
+}
+#legende5 {
+    margin-left: 70%;
+    margin-top: -10%;
+}
+#fondu2 {
+    margin-top: 8%;
+    background-color: white;
+    z-index: 100;
+    position: relative;
+    padding: 20px;
+}
+#morse {
+    width: 130%;
+    margin-top: -40%;
+    z-index: -100;
+}
+#saison {
+    filter : blur(2px);
+}
+
+.para {
+    font-family: police1;
+    margin-left: 500px;
+    margin-top: -120%;
+    text-align: left;
+ 
+   
+    }
+
+
+#dernier{
+    margin-left: 20%;
+    position: relative;
+    margin-top: -54%;
+}
+.blocblanc {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    body {
+        background-color: yellow;
+       
+    }
+    #INTRO{
+    font-family: police1;
+   text-align: left;
+    width: 60%;
+    margin-left: -10px;
+    
+    
+        }
+    #TITRE {
+    text-align: center;
+    background-color: black;
+    width: 60%;
+     margin-left: 1%;
+    margin-top: -30%;
+    z-index: 10;
+    position: relative;
+    color: white;
+    }
+    
+    
+    #contenu{
+        width: 100%;
+        margin-left: 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+#wrap {
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 1.6;
+  margin: 0;
+  display: flex;
+ 
+  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+}
+
+#wrap:not(:target) {
+  transform: translate3d(-335px, 0, 0);
+}
+
+#wrap:target {
+  transform: translate3d(0, 0, 0);
+}
+
+#open,
+#close {
+  height: 44px;
+  text-align: right;
+  display: block;
+  margin-right: -30px;
+}
+
+#wrap:target #open,
+#wrap:not(:target) #close {
+  display: none;
+}
+
+#wrap:target #open {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.header {
+  background: #000000;
+  width: 360px;
+  padding: 0 20px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.nav {
+  padding: 25px;
+}
+
+.main {
+  padding: 25px;
+  flex: 1;
+  display:inline-block;
+}
+
